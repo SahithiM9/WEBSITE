@@ -10,9 +10,9 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of Neha Nooka- Software Developer",
+  title: "Portfolio of Sahithi Mandava | Senior Full Stack .NET Developer",
   description:
-    "This is the portfolio of Neha Nooka. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+    "Portfolio of Sahithi Mandava, a Senior Full Stack .NET Developer specializing in C#, ASP.NET Core, Angular, React, Azure and accessible enterprise applications.",
 };
 
 export default function RootLayout({ children }) {

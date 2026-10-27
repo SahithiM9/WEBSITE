@@ -34,7 +34,7 @@ function HeroSection() {
  
           <div className="my-12 flex items-center gap-5">
           <Link
-              href={personalData.linkedIn}
+              href={personalData.linkedIn || personalData.github}
               target='_blank'
               className="transition-all text-[#0a66c2] hover:scale-125 duration-300"
             >
@@ -50,13 +50,13 @@ function HeroSection() {
             </Link>
 
             <Link
-              href={personalData.leetcode}
+              href={personalData.leetcode || personalData.github}
               target='_blank'
               className="transition-all text-[#FFA116] hover:scale-125 duration-300"
             >
               <SiLeetcode size={30} />
             </Link>
-            <Link target="_blank" href={personalData.twitter}>
+            <Link target="_blank" href={personalData.twitter || personalData.github}>
               <FaXTwitter
                  className="transition-all text-[#060c10] rounded-full   hover:scale-125 duration-300"
                 size={30}
@@ -104,7 +104,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Neha Nooka</span>
+                <span className="text-amber-300">Mandava Venkata Lakshmi Sahithi</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">

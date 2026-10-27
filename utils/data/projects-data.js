@@ -1,63 +1,75 @@
 export const projectsData = [
-    {
-        id: 1,
-        name: 'Cab Around',
-        tools: ['React Native', 'GraphQL', 'AWS', 'AWS Amplify', 'AWS S3', 'AWS CloudWatch'],
-        role: "Software Engineer",
-        code: '',
-        demo: 'https://youtube.com/playlist?list=PLQePrdBWxlsXQREK6iZuaEPGVOKFoVBWh&si=GTli4NfW1-7ZAo7y',
-        description: 'Engineered a dual ridesharing app using React Native, GraphQL, and AWS services, achieving 99.5% uptime. Key features include vehicle-type booking, real-time driver updates, seamless payments, a chatbot boosting engagement by 15%, trip histories, and saved locations for 25% quicker bookings.'
-    },
-    {
-        id: 2,
-        name: 'Digi Mart',
-        tools: ['Java', 'MVC Architecture', 'HTML5', 'CSS3', 'JavaScript', 'Docker', 'Kubernetes', 'AWS'],
-        role: "Software Engineer",
-        code: '',
-        demo: '',
-        description: 'Designed, developed, and deployed an e-commerce website with secure payment gateway integration, utilizing Java, MVC architecture, HTML5, CSS3, JavaScript, and third-party APIs. Containerized the application using Docker and deployed on a Kubernetes cluster for improved scalability and reliability.'
-
-    },
-    {
-        id: 3,
-        name: 'Smart Personal Finance Assistant',
-        tools: ['Python', 'React.js','AWS','JavaScript', 'Machine Learning', 'Predictive Analytics', 'Pandas'],
-        role: "Software Engineer",
-        code: '',
-        demo: '',
-        description: 'Developed a personal finance assistant using Python and React.js that helps users manage their expenses and savings through predictive analytics and personalized insights, resulting in a 25% increase in savings over six months. Created a machine learning model leveraging historical spending data to categorize transactions and forecast monthly budgets with 90% accuracy.'
-
-    },
-    {
-        id: 4,
-        name: "Flow - Travel Assistant",
-        tools: ["React Native", "Axios", "OpenAI API", "JavaScript", "Node.js"],
-        role: "Software Engineer",
-        code: "",
-        demo: "",
-        description: "Developed a  travel assistant mobile app using React Native that provides personalized travel recommendations and real-time assistance to users. Integrated OpenAI API to enable natural language processing for user queries, resulting in 40% more efficient trip planning."
-    },
-        {
-        id: 5,
-        name: "Weather Assistant",
-        tools: ["React Native", "TypeScript", "Open-Meteo API", "AWS", "iOS Notifications"],
-        role: "Software Engineer",
-        code: "",
-        demo: "",
-        description: "A sleek mobile application that acts as a personal weather assistant, providing real-time weather updates and additional insights using the Open-Meteo API. The app includes a modern UI, backend integration, and iOS notifications for unique weather updates."
-    },
-    
+  {
+    "id": 1,
+    "name": "Healthcare Member Self-Service Portal",
+    "tools": [
+      ".NET 8",
+      "ASP.NET Core",
+      "Blazor",
+      "Angular 18",
+      "SQL Server",
+      "Azure"
+    ],
+    "role": "ACV Health",
+    "code": "",
+    "demo": "",
+    "description": "Enterprise healthcare portal for member registration, eligibility, benefits, claims, appointments, and payments. Contributed secure APIs, accessible components, and cloud integration."
+  },
+  {
+    "id": 2,
+    "name": "NJ FamilyCare Eligibility & Enrollment Modernization",
+    "tools": [
+      ".NET 6",
+      "React",
+      "TypeScript",
+      "SQL Server",
+      "AWS"
+    ],
+    "role": "State of New Jersey DHS",
+    "code": "",
+    "demo": "",
+    "description": "Modernized healthcare enrollment and eligibility interfaces while integrating legacy systems. Focused on accessible workflows and secure services."
+  },
+  {
+    "id": 3,
+    "name": "Airline Operations & Reservation Platform",
+    "tools": [
+      "ASP.NET Core",
+      "Angular 14",
+      "PostgreSQL",
+      "Azure"
+    ],
+    "role": "Southwest Airlines",
+    "code": "",
+    "demo": "",
+    "description": "Supported booking, check-in, baggage, flight status, and reservation transaction workflows with accessible Angular interfaces and .NET APIs."
+  },
+  {
+    "id": 4,
+    "name": "Banking Payment & Transaction Platform",
+    "tools": [
+      "C#",
+      "Angular",
+      "SQL Server",
+      "Azure"
+    ],
+    "role": "Citizens Bank",
+    "code": "",
+    "demo": "",
+    "description": "Developed payment and transaction workflows, including ACH and wire transfers, financial reporting, API integrations, and authorization controls."
+  },
+  {
+    "id": 5,
+    "name": "Patient Services & Pharmacy Management Portal",
+    "tools": [
+      "ASP.NET MVC",
+      "Web Forms",
+      "SQL Server",
+      "WCF"
+    ],
+    "role": "Rapra Software Solutions / Apollo Hospitals",
+    "code": "",
+    "demo": "",
+    "description": "Maintained patient registration, online pharmacy, insurance and consultation workflows in an enterprise healthcare portal."
+  }
 ];
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-// },

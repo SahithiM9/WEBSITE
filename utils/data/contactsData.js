@@ -1,12 +1,12 @@
 export const contactsData = {
-    email: 'nookaneha@gmail.com',
-    phone: '+16673358435',
-    address:'Seattle WA, USA (Open to relocation)',
-    github: 'https://github.com/NehaNooka',
-    facebook: 'https://www.facebook.com/NehaNooka/',
-    linkedIn: 'https://www.linkedin.com/in/neha-nooka/',
-    twitter: 'https://twitter.com/nehanooka',
-    stackOverflow: 'https://stackoverflow.com/users/29148012/neha-nooka',
-    leetcode: "https://leetcode.com/u/nehanooka/",
-    devUsername: "nehanooka",
-}
+  "email": "sahithim979@gmail.com",
+  "phone": "",
+  "address": "",
+  "github": "https://github.com/SahithiM9",
+  "facebook": "",
+  "linkedIn": "",
+  "twitter": "",
+  "stackOverflow": "",
+  "leetcode": "",
+  "devUsername": ""
+};
